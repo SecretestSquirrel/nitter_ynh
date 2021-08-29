@@ -61,7 +61,7 @@ Please send your pull request to the [testing branch](https://github.com/YunoHos
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/nitter_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/SecretestSquirrel/nitter_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade nitter -u https://github.com/YunoHost-Apps/nitter_ynh/tree/testing --debug
+sudo yunohost app upgrade nitter -u https://github.com/SecretestSquirrel/nitter_ynh/tree/testing --debug
 ```
