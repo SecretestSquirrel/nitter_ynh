@@ -1,5 +1,5 @@
 {
-    "name": "Nitter",
+    "name": "NitterDV",
     "id": "nitter",
     "packaging_format": 1,
     "description": {
@@ -49,7 +49,7 @@
             {
                 "name": "theme",
                 "type": "string",
-                "default": "Auto",
+                "default": "Black",
                 "choices": [
                     "Auto",
                     "Black",
@@ -72,7 +72,7 @@
                 "name": "replace_youtube",
                 "type": "string",
                 "optional": true,
-                "default": "",
+                "default": "N",
                 "ask": {
                     "en": "Replace YouTube links with an Invidious instance",
                     "fr": "Remplacer les liens Youtube avec une instance Invidious"
@@ -86,7 +86,7 @@
                 "name": "replace_instagram",
                 "type": "string",
                 "optional": true,
-                "default": "",
+                "default": "N",
                 "ask": {
                     "en": "Replace Instagram links with a Bibliogram instance",
                     "fr": "Remplacer les liens Instagram avec une instance Bibliogram"
